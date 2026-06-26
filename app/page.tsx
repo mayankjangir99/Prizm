@@ -1038,7 +1038,7 @@ const [message, setMessage] = useState("");
           <div>
             <p className="mb-4 text-xs uppercase tracking-[0.32em] text-champagne">Office</p>
             <div className="space-y-3 text-sm leading-7 text-ivory/58">
-              <p>Mumbai / Bombay</p>
+              <p>Silvassa / Dadra & Nagar Haveli</p>
               <p>By appointment only</p>
               <p>Private consultations across South Mumbai, Bandra, Juhu, Powai, Thane, and Alibaug</p>
             </div>
