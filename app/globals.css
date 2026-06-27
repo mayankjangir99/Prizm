@@ -311,4 +311,12 @@ body.light {
   .cursor-dot {
     display: none;
   }
+  .hero-video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.65);
+  transform: scale(1.05);
 }
+}
+

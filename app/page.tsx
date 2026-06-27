@@ -501,14 +501,16 @@ const [message, setMessage] = useState("");
         onMouseMove={handleMouse}
         className="relative flex min-h-[100svh] items-end overflow-hidden px-5 pb-12 pt-28 md:px-10 md:pb-16"
       >
-        <Image
-          src="https://images.unsplash.com/photo-1745301558339-44eb3217d5da?auto=format&fit=crop&w=2200&q=88"
-          alt="Mumbai luxury living room designed by The PRIZM Design Studio"
-          fill
-          className="hero-image object-cover"
-          sizes="100vw"
-          priority
-        />
+        <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  preload="auto"
+  className="absolute inset-0 h-full w-full object-cover hero-video"
+>
+  <source src="/hero-video.mp4" type="video/mp4" />
+</video>
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,.86),rgba(0,0,0,.38)_48%,rgba(0,0,0,.62)),linear-gradient(180deg,rgba(0,0,0,.46),transparent_32%,rgba(0,0,0,.72))]" />
         <div className="absolute inset-x-0 top-0 h-44 bg-gradient-to-b from-black/70 to-transparent" />
         <div className="hero-aura absolute -left-20 top-24 h-72 w-72 rounded-full bg-champagne/20 blur-3xl" />
@@ -673,13 +675,22 @@ const [message, setMessage] = useState("");
               >
                 <Image src={project.image} alt={project.title} fill className="soft-image object-cover transition duration-[1600ms] group-hover:scale-[1.035]" sizes="(min-width: 768px) 50vw, 100vw" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/88 via-black/20 to-black/10" />
+                <div className="absolute bottom-5 right-5 z-20 pointer-events-none opacity-70">
+  <Image
+    src="/prizm-logo.png"
+    alt="PRIZM"
+    width={55}
+    height={55}
+    className="object-contain"
+  />
+</div>
                 <div className="project-frame absolute inset-5 border border-white/10 opacity-0 transition duration-700 group-hover:opacity-100" />
                 <div className="absolute left-6 top-6 flex gap-2 text-[0.68rem] uppercase tracking-[0.24em] text-ivory/76">
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-7 md:p-9">
                   <h3 className="mt-2 font-display text-4xl">{project.title}</h3>
                   <div className="mt-6 inline-flex items-center gap-3 text-xs uppercase tracking-[0.22em] text-ivory/78">
-                    View private project story <ArrowRight size={14} />
+                    
                   </div>
                 </div>
               </motion.article>

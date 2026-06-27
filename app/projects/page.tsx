@@ -250,7 +250,20 @@ return ( <main className="min-h-screen bg-black text-white px-6 py-20"> <div cla
             fill
             className="object-cover transition duration-700 group-hover:scale-105"
           />
-
+<div className="absolute top-4 right-4 z-20 pointer-events-none">
+  <div className="flex items-center gap-2 rounded-full bg-black/35 px-3 py-2 backdrop-blur-md border border-white/10">
+    <Image
+      src="/prizm-logo.png"
+      alt="PRIZM"
+      width={18}
+      height={18}
+      className="object-contain"
+    />
+    <span className="text-[10px] font-semibold tracking-[0.25em] text-white">
+      PRIZM
+    </span>
+  </div>
+</div>
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
 
           <div className="absolute bottom-0 p-6">
