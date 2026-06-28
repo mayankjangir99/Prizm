@@ -118,7 +118,7 @@ const projects = [
 
 const services = [
   ["Interior Design", "Layered Indian materiality, bespoke furniture, art curation, and refined styling."],
-  ["Architecture", "Quietly iconic Mumbai homes, villas, offices, and hospitality spaces shaped for Indian living."],
+  ["Architecture", "Quietly iconic Vapi homes, villas, offices, and hospitality spaces shaped for Indian living."],
   ["Space Planning", "Precise circulation, puja zones, storage, vastu-aware flow, privacy, and compact luxury."],
   ["3D Visualization", "Photorealistic previews, virtual walkthroughs, and material simulations before execution."],
   ["Renovation", "Sensitive transformations of apartments, bungalows, offices, and occupied homes."],
@@ -529,7 +529,7 @@ const [message, setMessage] = useState("");
               <span className="reveal-line"><span>PRIZM</span></span>
             </h1>
             <p className="mt-8 max-w-2xl text-lg leading-8 text-ivory/78 md:text-xl">
-              Premium Mumbai interiors shaped with clarity, proportion, craft, and a quietly memorable design language.
+              Premium Vapi interiors shaped with clarity, proportion, craft, and a quietly memorable design language.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a href="#projects" className="premium-button group inline-flex items-center justify-center gap-3 bg-ivory px-7 py-4 text-sm uppercase tracking-[0.22em] text-noir">
@@ -561,7 +561,7 @@ const [message, setMessage] = useState("");
               </div>
             </div>
             <p className="mt-8 text-xs uppercase tracking-[0.42em] text-champagne">Design Studio</p>
-            <p className="mt-4 font-display text-3xl leading-tight text-ivory">Mumbai homes, sea-facing apartments, villas, offices, hospitality, and retail interiors.</p>
+            <p className="mt-4 font-display text-3xl leading-tight text-ivory">Vapi homes, sea-facing apartments, villas, offices, hospitality, and retail interiors.</p>
             <div className="mt-8 border-t border-white/10 pt-6 text-sm text-ivory/60">
               A high-touch studio experience with material-led concepts, precise drawings, procurement control, and composed final styling.
             </div>
@@ -577,7 +577,7 @@ const [message, setMessage] = useState("");
           <div data-reveal className="relative min-h-[620px] overflow-hidden">
             <Image
               src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEDf3o7qYVowK5VVW8DTV8SQmmo2sP0Lo0y5n24w-AVdjkeRmCxrVADWVF0UnhHNyvhyHOxcCogoqXDAv7Va7mJ1g9KcpX-sBS5XEOhLhNuhljP7kDRGSQ93x1MiaQmBUBWnyP9=s1360-w1360-h1020-rw"
-              alt="Mumbai heritage-inspired luxury hospitality space"
+              alt="Vapi heritage-inspired luxury hospitality space"
               fill
               className="soft-image object-cover"
               sizes="(min-width: 1024px) 45vw, 100vw"
@@ -589,7 +589,7 @@ const [message, setMessage] = useState("");
           </div>
           <div data-reveal>
             <p className="mb-5 text-xs uppercase tracking-[0.42em] text-antique">Studio Vision</p>
-            <h2 className="font-display text-5xl leading-tight md:text-7xl">A studio identity built for contemporary Mumbai luxury.</h2>
+            <h2 className="font-display text-5xl leading-tight md:text-7xl">A studio identity built for contemporary Vapi luxury.</h2>
             <p className="mt-8 max-w-2xl text-lg leading-8 text-noir/68">
               The PRIZM Design Studio has shaped refined interiors since 2012. Based in Bombay, the studio pairs clean architectural thinking with Indian materials, custom furniture, vastu-aware planning, and meticulous delivery for clients who want spaces that feel distinctive without shouting.
             </p>
@@ -598,7 +598,7 @@ const [message, setMessage] = useState("");
                 "Concepts built around Bombay light, sea-facing views, privacy, craft, and family rituals.",
                 "Custom furniture, finishes, styling, and execution under one studio vision.",
                 "Detailed INR budgets and timelines before fabrication begins.",
-                "Premium site coordination across Mumbai homes, villas, offices, retail, and hospitality spaces."
+                "Premium site coordination across Vapi homes, villas, offices, retail, and hospitality spaces."
               ].map((item) => (
                 <p key={item} className="flex gap-3">
                   <CheckCircle2 size={18} className="mt-1 shrink-0 text-antique" />
@@ -632,7 +632,7 @@ const [message, setMessage] = useState("");
 
       <section className="bg-noir px-5 py-8 text-ivory md:px-10">
         <div className="mx-auto flex max-w-7xl flex-col gap-6 border-y border-white/10 py-7 md:flex-row md:items-center md:justify-between">
-          <p className="text-xs uppercase tracking-[0.42em] text-champagne">Seen in Mumbai design circles</p>
+          <p className="text-xs uppercase tracking-[0.42em] text-champagne">Seen in Vapi design circles</p>
           <div className="flex flex-wrap gap-x-9 gap-y-4 text-sm uppercase tracking-[0.28em] text-ivory/58">
             {pressNotes.map((note) => (
               <span key={note}>{note}</span>
@@ -646,9 +646,9 @@ const [message, setMessage] = useState("");
           <div data-reveal className="mb-12 flex flex-col justify-between gap-8 md:flex-row md:items-end">
             <div>
               <p className="mb-4 text-xs uppercase tracking-[0.42em] text-champagne">Featured Projects</p>
-              <h2 className="font-display text-5xl md:text-7xl">Selected Mumbai commissions</h2>
+              <h2 className="font-display text-5xl md:text-7xl">Selected Vapi commissions</h2>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-ivory/62">
-                A quieter portfolio view across Worli, Bandra, Colaba, Juhu, Lower Parel, Alibaug, and greater Mumbai.
+                A quieter portfolio view across Worli, Bandra, Colaba, Juhu, Lower Parel, Alibaug, and greater Vapi.
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
@@ -726,7 +726,7 @@ const [message, setMessage] = useState("");
       <section className="section-shell bg-ivory text-noir">
         <div className="mx-auto max-w-7xl" data-reveal>
           <p className="mb-4 text-xs uppercase tracking-[0.42em] text-antique">Before and After</p>
-          <h2 className="max-w-4xl font-display text-5xl md:text-7xl">Mumbai homes transformed with warmth and restraint.</h2>
+          <h2 className="max-w-4xl font-display text-5xl md:text-7xl">Vapi homes transformed with warmth and restraint.</h2>
           <div className="before-after relative mt-12 h-[560px] overflow-hidden bg-noir">
             <Image
   src="/before (1).png"
@@ -869,7 +869,7 @@ const [message, setMessage] = useState("");
       <section className="section-shell bg-noir">
         <div data-reveal className="mx-auto max-w-7xl">
           <p className="mb-4 text-xs uppercase tracking-[0.42em] text-champagne">Testimonials</p>
-          <h2 className="max-w-4xl font-display text-5xl md:text-7xl">Trusted by Mumbai families, founders, and hospitality clients.</h2>
+          <h2 className="max-w-4xl font-display text-5xl md:text-7xl">Trusted by Vapi families, founders, and hospitality clients.</h2>
           <div className="mt-14 overflow-hidden">
             <div className="testimonial-track flex w-max gap-5">
               {[...testimonials, ...testimonials].map(([name, role, quote], index) => (
@@ -904,7 +904,7 @@ const [message, setMessage] = useState("");
                 <h3 className="font-display text-3xl">{step}</h3>
                 <p className="mt-4 text-sm leading-7 text-noir/60">
                   {[
-                    "Family goals, Mumbai property context, vastu preferences, budget, timeline, and decision makers.",
+                    "Family goals, Vapi property context, vastu preferences, budget, timeline, and decision makers.",
                     "Atmosphere, references, Indian craft direction, and early investment guidance.",
                     "Drawings, materials, lighting, furniture, and approval-ready specifications.",
                     "Vendor management, custom fabrication, contractor coordination, and quality control.",
@@ -922,7 +922,7 @@ const [message, setMessage] = useState("");
           <div data-reveal className="flex flex-col justify-between gap-8 md:flex-row md:items-end">
             <div>
               <p className="mb-4 text-xs uppercase tracking-[0.42em] text-champagne">Awards and Recognition</p>
-              <h2 className="max-w-4xl font-display text-5xl md:text-7xl">Recognized within Mumbai&apos;s premium design conversation.</h2>
+              <h2 className="max-w-4xl font-display text-5xl md:text-7xl">Recognized within Vapi&apos;s premium design conversation.</h2>
             </div>
             <Award className="text-champagne" size={72} />
           </div>
@@ -943,7 +943,7 @@ const [message, setMessage] = useState("");
             <p className="mb-4 text-xs uppercase tracking-[0.42em] text-antique">Contact</p>
             <h2 className="font-display text-5xl md:text-7xl">Begin with a PRIZM design consultation.</h2>
             <p className="mt-7 max-w-xl text-lg leading-8 text-noir/66">
-              For Mumbai homeowners, builders, developers, hoteliers, and founders seeking a refined studio partner.
+              For Vapi homeowners, builders, developers, hoteliers, and founders seeking a refined studio partner.
             </p>
             <div className="mt-10 grid gap-4 text-noir/70">
               <p className="flex items-center gap-3"><MapPin size={18} className="text-antique" /> A- LANDMARK BUILDING, Tokarkhada, Samarvarni, Silvassa, Dadra and Nagar Haveli and Daman and Diu 396230</p>
@@ -958,7 +958,7 @@ const [message, setMessage] = useState("");
               className="mt-10 h-72 w-full border-0 grayscale"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps?q=Mumbai%20Maharashtra%20India&output=embed"
+              src="https://www.google.com/maps?q=Vapi%20Maharashtra%20India&output=embed"
             />
           </div>
           <div data-reveal className="contact-shell relative overflow-hidden border border-black/10 bg-noir p-6 text-ivory shadow-glass md:p-10">
@@ -1044,14 +1044,14 @@ const [message, setMessage] = useState("");
                 <p className="mt-1 text-xs uppercase tracking-[0.3em] text-ivory/55">Design Studio / ESTD 2012</p>
               </div>
             </div>
-            <p className="mt-4 max-w-md leading-7 text-ivory/55">Premium Mumbai interiors, architecture, visualization, and turnkey project delivery for apartments, villas, offices, showrooms, and hospitality properties.</p>
+            <p className="mt-4 max-w-md leading-7 text-ivory/55">Premium Vapi interiors, architecture, visualization, and turnkey project delivery for apartments, villas, offices, showrooms, and hospitality properties.</p>
           </div>
           <div>
             <p className="mb-4 text-xs uppercase tracking-[0.32em] text-champagne">Office</p>
             <div className="space-y-3 text-sm leading-7 text-ivory/58">
               <p>Silvassa / Dadra & Nagar Haveli</p>
               <p>By appointment only</p>
-              <p>Private consultations across South Mumbai, Bandra, Juhu, Powai, Thane, and Alibaug</p>
+              <p>Private consultations across South Vapi, Bandra, Juhu, Powai, Thane, and Alibaug</p>
             </div>
           </div>
           <div>
