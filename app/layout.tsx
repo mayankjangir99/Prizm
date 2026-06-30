@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL("https://prizm-design.in"),
 
-  title: "The PRIZM Design Studio | Luxury Interior Designers in Mumbai",
+  title: "The PRIZM Design Studio | Luxury Interior Designers in Mumbai |  Luxury Interior Designers in Mumbai",
 
   description:
     "The PRIZM Design Studio creates refined Mumbai interiors, architecture, and turnkey apartments, villas, offices, and hospitality spaces. Established in 2012.",
